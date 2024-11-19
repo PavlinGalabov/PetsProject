@@ -1,6 +1,6 @@
 from django.urls import path
-from PetsProject.common.views import home_page
+from PetsProject.common.views import index
 
 urlpatterns = (
-    path("", home_page, name="home page"),
+    path("", index, name="index"),
 )

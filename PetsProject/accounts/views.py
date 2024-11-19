@@ -18,7 +18,7 @@ def signout_user(request):
     return None
 
 
-def details_profile(request):
+def details_profile(request, pk):
     context = {}
     return render(request, "accounts/profile-details-page.html", context)
 
